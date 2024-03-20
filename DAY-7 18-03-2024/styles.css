@@ -1,0 +1,30 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #813c3c;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  p {
+    color: #2f69b4;
+  }
+  
+
+  h2{
+    color: black;
+  }
+
+  #heading{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aqua;
+  }
