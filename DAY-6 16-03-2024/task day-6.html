@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login and Signup Forms</title>
+  <style>
+    .error {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <!-- Login Form -->
+  <h2>Login Form</h2>
+  <form id="loginForm">
+    <label for="loginEmail">Email:</label>
+    <input type="email" id="loginEmail" name="loginEmail" required><br>
+    <label for="loginPassword">Password:</label>
+    <input type="password" id="loginPassword" name="loginPassword" required><br>
+    <input type="submit" value="Login">
+  </form>
+
+  <!-- Signup Form -->
+  <h2>Signup Form</h2>
+  <form id="signupForm" >
+    <label for="firstName">First Name:</label>
+    <input type="text" id="firstName" name="firstName" required><br>
+    <label for="lastName">Last Name:</label>
+    <input type="text" id="lastName" name="lastName" required><br>
+    <label for="signupEmail">Email:</label>
+    <input type="email" id="signupEmail" name="signupEmail" required><br>
+    <label for="signupPassword">Password:</label>
+    <input type="password" id="signupPassword" name="signupPassword" required><br>
+    <label for="mobile">Mobile:</label>
+    <input type="tel" id="mobile" name="mobile" pattern="[0-9]{10}" required><br>
+    <input type="submit" value="Sign Up">
+  </form>
+
+  <!-- Upload your pic -->
+  <h2>Upload Your Pic</h2>
+  <form id="uploadPicForm">
+    <label for="pic">Choose File:</label>
+    <input type="file" id="pic" name="pic" required><br>
+    <input type="submit" value="Upload">
+  </form>
+
+ 
+</body>
+</html>
