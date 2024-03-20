@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tables</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            table, th, td{
+                border: 1px solid black;
+                border-collapse: collapse;
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Tables in HTML</h1>
+        <div>
+
+            <table>
+                <tr>
+                    <th colspan="5" > Marks</th>
+                </tr>
+                <tr>
+                    <th rowspan="5" >FUTURE -TECH</th>
+                </tr>
+                <tr>
+                    <th>S.no</th>
+                    <th>English Marks</th>
+                    <th>Maths Marks</th>
+                    <th>Total</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>22</td>
+                    <td>20</td>
+                    <td>42</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>20</td>
+                    <td>21</td>
+                    <td>41</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>20</td>
+                    <td>20</td>
+                    <td>40</td>
+                </tr>
+
+            </table>
+
+
+            <br/>
+            <table>
+                <tr>
+                    <th>S.no</th>
+                    <th>Name</th>
+                    <th>Timings</th>
+                    <th>Subject</th>
+                    <th rowspan="7" >Future tech</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>hari</td>
+                    <td>7:00-8:00 AM</td>
+                    <td>Chemistry</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>navee</td>
+                    <td>8:00-9:00 AM</td>
+                    <td>Physics</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Venky</td>
+                    <td>9:00-10:00 AM</td>
+                    <td>Maths</td>
+                </tr>
+                <tr>
+                    <th colspan="4" >Break 30 mins</th>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Sravani</td>
+                    <td>10:30-11:30 AM</td>
+                    <td>English</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Gopi</td>
+                    <td>11:30-12:30 AM</td>
+                    <td>Social</td>
+                </tr>
+            </table>
+        </div>
+
+        
+   <p>2.Add Meta tags withs emojis and symbols (REFER MDN or w3 schools);</p>
+
+        <span style='font-size:100px;'>&#128513;</span>
+        <span style='font-size:100px;'>&#128520;</span>
+        <span style='font-size:100px;'>&#128521;</span>
+        <span style='font-size:100px;'>&#128525;</span>
+        <span style='font-size:100px;'>&#128567;</span>
+
+   
+
+    
+            <h1 align="center" >Forms</h1>
+
+            <form  align="center">
+                <label for="fName">First Name: </label>
+                <input required id="fName" type="text" placeholder="Enter your first name..." name="" value=""  /> 
+               <br />
+
+                <label for="lName">Last Name: </label>
+                <input required type="text" id="lName"  placeholder="Enter your last name" />
+                
+                <br /> 
+                
+                <label for="email">Email:</label>
+                <input type="email" required id="email" placeholder="Enter your email..."  />
+                <br/>  
+                
+                <button>Login</button>
+            </form>
+
+    </body>
+</html>
